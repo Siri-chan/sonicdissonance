@@ -1,0 +1,46 @@
+h1 {
+    font-size: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+    background-color: aliceblue;
+    color: #000;
+    float: left;
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid solid solid solid;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.blue {
+    background-color: #008cba;
+}
+
+button:hover {
+    background-color: #fff;
+
+}
+
+.top-section {
+    background-image: url("./background.png"); /* TODO THIS IS A PLACEHOLDER */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+textarea {
+    /* todo more styling needs to be here */
+    resize: none;
+}
