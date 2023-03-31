@@ -129,14 +129,13 @@ data Foo = Bar Int String
          | Baz [Char]
 
 instance Show Foo where
-    show (Bar x y) = "" ++ show x ++ "" ++ y
     show (Baz x)   = "This is an" ++ show x
 
 foo :: Foo
 foo = Baz " April Fools Joke"
 
 quux :: Foo -> IO ()
-quux x = putStrLn $ "" ++ show x
+quux x = putStrLn $ ++ show x
 
 
 
